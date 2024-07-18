@@ -201,4 +201,26 @@ main{
     position: relative;
     margin-top: -100px;
     opacity: 0.6;
+} 
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
 }
