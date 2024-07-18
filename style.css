@@ -201,26 +201,31 @@ main{
     position: relative;
     margin-top: -100px;
     opacity: 0.6;
-} 
+}
+
 
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+    background: #d3d3d3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container__footer {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .social-media {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .social-media a {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
 .social-media img {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
